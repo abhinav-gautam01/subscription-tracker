@@ -1,0 +1,21 @@
+1) installing nodemon for refreshing upon change in backend
+2) changes in package.json -> for nodemon and the type: module 
+3) run :- npm run dev ( so nodemon can track changes and restart the server)
+4) setting up eslint -> for checking of errors in js 
+5) creating basic server using import syntax:
+6) now install dotenv for environment variables:- npm install dotenv   
+7) config-> env.js  -> for configuration of js file 
+
+
+    <--- module type is better ---->
+8) production vs development env varible acces:
+    npm run start  # Uses .env.production.local
+    npm run dev    # Uses .env.development.local
+    "scripts": {
+  "dev": "NODE_ENV=development nodemon app.js",
+  "start": "NODE_ENV=production node app.js"
+}
+
+
+9) setting up routes 
+10) creating database and it's models
